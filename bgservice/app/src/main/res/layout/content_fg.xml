@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.beeps.bgservice.FgActivity"
+    tools:showIn="@layout/activity_fg">
+
+  <!-- Layout that displays updates -->
+  <LinearLayout
+      android:orientation="vertical"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Latest Date"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:gravity="center_horizontal"/>
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Retrieving..."
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:gravity="left|top" android:padding="10dip"/>
+  </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

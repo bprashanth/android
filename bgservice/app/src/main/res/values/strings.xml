@@ -1,0 +1,4 @@
+<resources>
+  <string name="app_name">bgservice</string>
+  <string name="title_activity_fg">FgActivity</string>
+</resources>
